@@ -3,7 +3,7 @@
 
 setup:
 ```
-bundle init
-bundle add rails
 rails new --webpack=react --skip-turbolinks app
+bundle add react-rails
+bundle exec rails generate react:install
 ```
