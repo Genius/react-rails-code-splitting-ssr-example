@@ -1,0 +1,3 @@
+<% cache react_cache_key do %>
+  <%= react_component('App', { path: request.path }, prerender: true) %>
+<% end %>
