@@ -5,10 +5,10 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= javascript_pack_tag 'application' %>
+    <% cache react_cache_key do %>
+      <%= raw @react_head_tags.to_s %>
+    <% end %>
   </head>
-
   <body>
     <%= yield %>
   </body>

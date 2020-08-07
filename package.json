@@ -3,6 +3,8 @@
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.10.4",
+    "@loadable/component": "^5.13.1",
+    "@loadable/server": "^5.13.1",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -15,6 +17,8 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@loadable/babel-plugin": "^5.13.0",
+    "@loadable/webpack-plugin": "^5.13.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
