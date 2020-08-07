@@ -1,4 +1,3 @@
-/* eslint-disable prefer-reflect */
 const path = require('path');
 const {Environment, config} = require('@rails/webpacker');
 const WebpackAssetsManifest = require('webpack-assets-manifest');

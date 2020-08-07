@@ -1,4 +1,4 @@
-# react-rails SSR/loadable-components example
+# react-rails code splitting + server side rendering example
 
 (more docs TK) the general idea here is that in order to code split and use SSR at the same time, we need to take advantage of webpack's multi-compiler mode, which webpacker doesn't support out of the box
 
